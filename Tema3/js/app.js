@@ -58,3 +58,8 @@ const CAMBIO = DINERO - TOTAL;
 const ALCANZA = DINERO >= TOTAL;
 console.log(`Ticket de ${alumno}: subtotal ${subtotal} €, total con IVA ${TOTAL} €`);
 console.log(`¿Le alcanza con ${DINERO} €? ${ALCANZA}. Cambio: ${CAMBIO} €`);
+
+// Cosas nuevas.
+const MODULOS = ["Programación", "Bases de Datos", "Lenguajes de Marcas"];
+for (const m of MODULOS) console.log(m);
+// for...of recorre valores
