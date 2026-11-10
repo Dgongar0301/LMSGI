@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biblioteca>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <año>1967</año>
+        <editorial>Sudamericana</editorial>
+    </libro>
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <!--el error es que en el cierre de autor esta con la a mayuscula, la solucion es ponerla A en minuscula-->
+        <autor>Carlos Ruiz Zafón</autor>
+        <año>2001</año>
+        <editorial>Planeta</editorial>
+    </libro>
+    <libro>
+    <!--el error es que no esta el cierre de titulo, la sulucion colocarle el cierre-->
+        <titulo>Platero y yo</titulo>
+        <autor>Juan Ramón Jiménez</autor>
+        <año>1914</año>
+        <editorial>La Lectura</editorial>
+    </libro>
+</biblioteca>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- el error era que faltaba el ? al final, la solucion a sido colocarlo -->
+<horario grupo="1º DAW" curso="2026-2027">
+    <dia nombre="lunes">
+        <sesion hora="1">
+            <modulo>Lenguajes de Marcas</modulo>
+            <aula>A-12</aula>
+        </sesion>
+        <!-- el error de aqui esque en el cierre la s es mayuscula, la solucion es ponerla minuscula -->
+        <sesion hora="2">
+            <modulo>Bases de Datos</modulo>
+            <aula>A-12</aula>
+        </sesion>
+    </dia>
+    <dia nombre="martes">
+        <sesion hora="1">
+            <modulo>Programación</modulo>
+            <aula>Lab 3</aula>
+            <!-- el error es que no se puede anyadir porque es un valor reservado, hay que anyadirle un codigo -->
+            <nota>Traer portátil &amp; cargador</nota>
+        </sesion>
+        <!-- el error es hora esta duplicado la solucion es quitar uno -->
+        <sesion hora="2">
+            <modulo>Sistemas Informáticos</modulo>
+            <aula>Lab 1</aula>
+        </sesion>
+    </dia>
+    <dia nombre="miércoles">
+        <sesion hora="1">
+            <modulo>Entornos de Desarrollo</modulo>
+            <aula>A-14</aula>
+        </sesion>
+    </dia>
+    <!-- el error era que estaba fuera del xml, la solucion a sido meterlo dentro del xml -->
+    <!-- Fin del horario -->
+    Última actualización: septiembre
+</horario>

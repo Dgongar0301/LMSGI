@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clase grupo="1DAW">
+    <alumno id="A01" repetidor="no">
+        <nombre>Lucía</nombre>
+        <apellidos>Martín Ruiz</apellidos>
+        <nota modulo="LMSGI">8.5</nota>
+    </alumno>
+    <!--el error es que a A02 le faltan las comillas dobles, la solucion es colocarlas-->
+    <alumno id="A02" repetidor="no">
+        <nombre>Javier</nombre>
+        <apellidos>Ortega Sánchez</apellidos>
+        <!--el error es que el modulo se repite, la solucion es quitarlo-->
+        <nota modulo="LMSGI" >6</nota>
+    </alumno>
+    <alumno id="A03" repetidor="si">
+        <nombre>Marta</nombre>
+        <apellidos>Romero Díaz</apellidos>
+        <!--el error es que en LMSGI en vez de estar las "", hay una simple y una doble, la solucion es ponerla bien-->
+        <nota modulo="LMSGI">7.25</nota>
+    </alumno>
+</clase>

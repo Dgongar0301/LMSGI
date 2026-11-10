@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogo>
+    <videojuego pegi="12">
+        <titulo>The Legend of Zelda: Tears of the Kingdom</titulo>
+        <plataforma>Nintendo Switch</plataforma>
+        <precio moneda="EUR">69.99</precio>
+    </videojuego>
+    <videojuego pegi="18">
+        <titulo>Red Dead Redemption 2</titulo>
+        <plataforma>PS4, Xbox One, PC</plataforma>
+        <!-- e el cierre tambien a anyadido el nombre cuando no hace falta, la solucion es quitarlo del cierre -->
+        <precio moneda="EUR">59.99</precio>
+    </videojuego>
+    <!-- El error es que se a  anyadido nota, la solucion es quitarlo -->
+    <videojuego pegi="3">
+        <titulo>Mario Kart 8 Deluxe</titulo>
+        <plataforma>Nintendo Switch</plataforma>
+        <!-- el error esta en que en el cierre hay un espacio, solucion, no dejar el espacio -->
+        <precio moneda="EUR">49.99</precio>
+    </videojuego>
+    <!-- en este error faltaban dos giones, la solucion a sido anyadirlos -->
+    <!-- Añadir más videojuegos -->
+</catalogo>

@@ -1,0 +1,73 @@
+{
+  "edicion": 2026,
+  "presentaciones": [
+    {
+      "codigo": "P01",
+      "fecha": "2026-11-05",
+      "nombre": "Poesía en la plaza",
+      "hora": "18:00",
+      "sala": "Sala Azul",
+      "precio": 0.00,
+      "observaciones": "Entrada libre hasta completar aforo",
+      "autor": {
+        "codigo": "A02",
+        "nombre": "Luis Ferrán",
+        "editorial": "Poesía Viva",
+        "libros_publicados": 3,
+        "email": "luis.ferran@example.com",
+        "firma_ejemplares": "Sí"
+      }
+    },
+    {
+      "codigo": "P02",
+      "fecha": "2026-11-06",
+      "nombre": "Novela negra & café",
+      "hora": "19:30",
+      "sala": "Sala Roja",
+      "precio": 3.50,
+      "observaciones": null,
+      "autor": {
+        "codigo": "A01",
+        "nombre": "Marta Ríos",
+        "editorial": "Ediciones Sur & Norte",
+        "libros_publicados": 6,
+        "email": "marta.rios@example.com",
+        "firma_ejemplares": "Sí"
+      }
+    },
+    {
+      "codigo": "P03",
+      "fecha": "2026-11-07",
+      "nombre": "Cuentos para pequeños",
+      "hora": "11:00",
+      "sala": "Carpa infantil",
+      "precio": 2.00,
+      "observaciones": "Edad < 8 años con un adulto",
+      "autor": {
+        "codigo": "A03",
+        "nombre": "Clara Blanco",
+        "editorial": "Pequeño Lector",
+        "libros_publicados": 9,
+        "email": "clara.blanco@example.com",
+        "firma_ejemplares": "No"
+      }
+    },
+    {
+      "codigo": "P04",
+      "fecha": "2026-11-08",
+      "nombre": "Versos del sur",
+      "hora": "12:30",
+      "sala": "Sala Azul",
+      "precio": 0.00,
+      "observaciones": "Firma de ejemplares al terminar",
+      "autor": {
+        "codigo": "A02",
+        "nombre": "Luis Ferrán",
+        "editorial": "Poesía Viva",
+        "libros_publicados": 3,
+        "email": "luis.ferran@example.com",
+        "firma_ejemplares": "Sí"
+      }
+    }
+  ]
+}

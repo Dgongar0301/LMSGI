@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ligas>
+<!-- Clasificación de las ligas locales -->
+ <!--el error es que el comentario no puede aparecer por encima de la primera linea, la solucion es cerrarlo-->
+<liga nombre="Liga Provincial">
+    <equipo posicion="1">
+        <nombre>CD Atlético Ribera</nombre>
+        <puntos>24</puntos>
+    </equipo>
+    <!--el error es que hay dos giones y no se pueden colocar en el c omentario, la solucion es quitarlo"-->
+    <!-- Equipo recién ascendido revisar datos -->
+    <equipo posicion="2">
+        <nombre>UD Campiña</nombre>
+        <puntos>21</puntos>
+    </equipo>
+</liga>
+<!-- el error esque falta el nodo raiz y la solucion es anyadirlo -->
+<liga nombre="Liga Juvenil">
+    <equipo posicion="1">
+        <nombre>CF Olivares</nombre>
+        <puntos>19</puntos>
+    </equipo>
+</liga>
+</ligas>

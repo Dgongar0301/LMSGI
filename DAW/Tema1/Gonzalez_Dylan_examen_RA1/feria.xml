@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- feria -->
+<feria edicion="2026" xmlns:pre="https://cultura.ayto-ejemplo.es/feria/presentaciones" xmlns:aut="https://editoriales.ejemplo.es/autores">
+    <pre:presentaciones>
+        <pre:presentacion codigo="P01" fecha="2026-11-05">
+            <pre:nombre>Poesía en la plaza</pre:nombre>
+            <pre:hora>18:00</pre:hora>
+            <pre:sala>Sala Azul</pre:sala>
+            <pre:precio>0,00</pre:precio>
+            <pre:observacion>Entrada libre hasta completar aforo</pre:observacion>
+            <aut:autor codigo="A02">
+                <aut:nombre>Luis Ferrán</aut:nombre>
+                <aut:editorial>Poesía Viva</aut:editorial>
+                <aut:libros_publicados>3</aut:libros_publicados>
+                <aut:email>luis.ferran@example.com</aut:email>
+                <aut:firma_ejemplares>Sí</aut:firma_ejemplares>
+            </aut:autor>
+        </pre:presentacion>
+        <pre:presentacion codigo="P02" fecha="2026-11-06">
+            <pre:nombre>Novela negra &amp; café</pre:nombre>
+            <pre:hora>19:30</pre:hora>
+            <pre:sala>Sala Roja</pre:sala>
+            <pre:precio>3,50</pre:precio>
+            <pre:observacion/>
+            <aut:autor codigo="A01">
+                <aut:nombre>Marta Ríos</aut:nombre>
+                <aut:editorial>diciones Sur &amp; Norte</aut:editorial>
+                <aut:libros_publicados>6</aut:libros_publicados>
+                <aut:email>marta.rios@example.com</aut:email>
+                <aut:firma_ejemplares>Sí</aut:firma_ejemplares>
+            </aut:autor>
+        </pre:presentacion>
+        <pre:presentacion codigo="P03" fecha="2026-11-07">
+            <pre:nombre>Cuentos para pequeños</pre:nombre>
+            <pre:hora>11:00</pre:hora>
+            <pre:sala>Carpa infantil</pre:sala>
+            <pre:precio>2,00</pre:precio>
+            <pre:observacion>Edad &gt; 8 años con un adulto</pre:observacion>
+            <aut:autor codigo="A03">
+                <aut:nombre>Clara Blanco</aut:nombre>
+                <aut:editorial>Pequeño Lector</aut:editorial>
+                <aut:libros_publicados>9</aut:libros_publicados>
+                <aut:email>clara.blanco@example.com</aut:email>
+                <aut:firma_ejemplares>No</aut:firma_ejemplares>
+            </aut:autor>
+        </pre:presentacion>
+        <pre:presentacion codigo="P04" fecha="2026-11-08">
+            <pre:nombre>Versos del sur</pre:nombre>
+            <pre:hora>12:30</pre:hora>
+            <pre:sala>Sala Azul</pre:sala>
+            <pre:precio>0,00</pre:precio>
+            <pre:observacion>Firma de ejemplares al terminar</pre:observacion>
+            <aut:autor codigo="A02">
+                <aut:nombre>Luis Ferrán</aut:nombre>
+                <aut:editorial>Poesía Viva</aut:editorial>
+                <aut:libros_publicados>3</aut:libros_publicados>
+                <aut:email>luis.ferran@example.com</aut:email>
+                <aut:firma_ejemplares>Sí</aut:firma_ejemplares>
+            </aut:autor>
+        </pre:presentacion>
+    </pre:presentaciones>
+</feria>
+ <!-- Fin feria -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pedido xmlns:prod="http://www.ejemplo.com/pedidos" xmlns:cli="http://www.ejemplo.com/clientes">
+    <numero>2045</numero>
+    <cli:cliente>
+        <cli:nombre>Pedro Alonso</cli:nombre>
+        <cli:email>pedro@example.com</cli:email>
+        <!-- El error aqui esque el cierre no esta completo, la solucion es completarlo -->
+        <cli:direccion>Calle Mayor, 12</cli:direccion>
+    </cli:cliente>
+   <!-- El error aqui esque prod no esta asociado, hay que asociarlo arriba como el cli -->
+    <prod:producto>
+        <prod:nombre>Ratón inalámbrico</prod:nombre>
+        <prod:precio moneda="EUR">24.90</prod:precio>
+    </prod:producto>
+    <!-- El error es que esta la palabra urgente, la solucion que le doy es quitarla -->
+    <observaciones>Entregar por la tarde</observaciones>
+</pedido>

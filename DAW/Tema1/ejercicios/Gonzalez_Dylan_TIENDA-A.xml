@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Esta es la variante TIENDA-A de lenjuage de marcar echo por dylan Gonzalez-->
+<tienda xmlns:cli="https://xml.ejemplo.es/tienda/a/clientes"
+xmlns:ped="https://xml.ejemplo.es/tienda/a/pedidos">
+    <cli:codigo id="C01">
+        <cli:nombre>Mario</cli:nombre>
+        <cli:email>cliente1@example.com</cli:email>
+        <cli:ciudad>Cadiz</cli:ciudad>
+        <cli:notas> </cli:notas>
+    </cli:codigo>
+    <cli:codigo id="C02">
+        <cli:nombre>Daniela</cli:nombre>
+        <cli:email>cliente2@example.com</cli:email>
+        <cli:ciudad>Almeria</cli:ciudad>
+        <cli:notas>Prefiere entrega por la tarde</cli:notas>
+        <ped:n_pedido id="P-1453">
+            <ped:fecha>2026-07-25</ped:fecha>
+            <ped:total>90</ped:total>
+            <ped:enviado>no</ped:enviado>
+        </ped:n_pedido>
+        <ped:n_pedido id="P-4967">
+            <ped:fecha>2026-09-05</ped:fecha>
+            <ped:total>213.20</ped:total>
+            <ped:enviado>no</ped:enviado>
+        </ped:n_pedido>
+    </cli:codigo>
+    <cli:codigo id="C03">
+        <cli:nombre>Hugo</cli:nombre>
+        <cli:email>cliente3@example.com</cli:email>
+        <cli:ciudad>Almeria</cli:ciudad>
+        <cli:notas>Envio urgente &amp; factura</cli:notas>
+        <ped:n_pedido id="8081">
+            <ped:fecha>2026-03-23</ped:fecha>
+            <ped:total>23.95</ped:total>
+            <ped:enviado>no</ped:enviado>
+        </ped:n_pedido>
+        <ped:n_pedido id="P-3835">
+            <ped:fecha>2026-05-17</ped:fecha>
+            <ped:total>158.95</ped:total>
+            <ped:enviado>si</ped:enviado>
+        </ped:n_pedido>
+        <ped:n_pedido id="P-2156">
+            <ped:fecha>2026-05-18</ped:fecha>
+            <ped:total>374.95</ped:total>
+            <ped:enviado>no</ped:enviado>
+        </ped:n_pedido>
+    </cli:codigo>
+    <cli:codigo id="C04">
+        <cli:nombre>Noa</cli:nombre>
+        <cli:email>cliente4@example.com</cli:email>
+        <cli:ciudad>Sevilla</cli:ciudad>
+        <cli:notas> </cli:notas>
+        <ped:n_pedido id="P-6565">
+            <ped:fecha>2026-07-15</ped:fecha>
+            <ped:total>47.90</ped:total>
+            <ped:enviado>no</ped:enviado>
+        </ped:n_pedido>
+        <ped:n_pedido id="P-2206">
+            <ped:fecha>2026-07-23</ped:fecha>
+            <ped:total>267</ped:total>
+            <ped:enviado>si</ped:enviado>
+        </ped:n_pedido>
+    </cli:codigo>
+    <cli:codigo id="C05">
+        <cli:nombre>Pablo</cli:nombre>
+        <cli:email>cliente5@example.com</cli:email>
+        <cli:ciudad>Malaga</cli:ciudad>
+        <cli:notas>prefiere entrega por la tarde</cli:notas>
+        <ped:n_pedido id="P-1388">
+            <ped:fecha>2026-09-27</ped:fecha>
+            <ped:total>209.85</ped:total>
+            <ped:enviado>no</ped:enviado>
+        </ped:n_pedido>
+        <ped:n_pedido id="P-3065">
+            <ped:fecha>2026-08-08</ped:fecha>
+            <ped:total>380.50</ped:total>
+            <ped:enviado>no</ped:enviado>
+        </ped:n_pedido>
+    </cli:codigo>
+    <cli:codigo id="C06">
+        <cli:nombre>Alvaro</cli:nombre>
+        <cli:email>cliente6@example.com</cli:email>
+        <cli:ciudad>Jaen</cli:ciudad>
+        <cli:notas>pedidos &lt; 30$ sin envio gratis</cli:notas>
+        <ped:n_pedido id="P-8284">
+            <ped:fecha>2026-09-12</ped:fecha>
+            <ped:total>26</ped:total>
+            <ped:enviado>si</ped:enviado>
+        </ped:n_pedido>
+        <ped:n_pedido id="1430">
+            <ped:fecha>2026-08-28</ped:fecha>
+            <ped:total>352</ped:total>
+            <ped:enviado>no</ped:enviado>
+        </ped:n_pedido>
+    </cli:codigo>
+</tienda>

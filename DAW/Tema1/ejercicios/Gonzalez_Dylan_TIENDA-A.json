@@ -1,0 +1,126 @@
+{
+  "variante": "TIENDA-A",
+  "tienda": {
+    "clientes": [
+      {
+        "id": "C01",
+        "nombre": "Mario",
+        "email": "cliente1@example.com",
+        "ciudad": "Cadiz",
+        "notas": "",
+        "pedidos": []
+      },
+      {
+        "id": "C02",
+        "nombre": "Daniela",
+        "email": "cliente2@example.com",
+        "ciudad": "Almeria",
+        "notas": "Prefiere entrega por la tarde",
+        "pedidos": [
+          {
+            "id": "P-1453",
+            "fecha": "2026-07-25",
+            "total": 90,
+            "enviado": "no"
+          },
+          {
+            "id": "P-4967",
+            "fecha": "2026-09-05",
+            "total": 213.20,
+            "enviado": "no"
+          }
+        ]
+      },
+      {
+        "id": "C03",
+        "nombre": "Hugo",
+        "email": "cliente3@example.com",
+        "ciudad": "Almeria",
+        "notas": "Envio urgente & factura",
+        "pedidos": [
+          {
+            "id": "8081",
+            "fecha": "2026-03-23",
+            "total": 23.95,
+            "enviado": "no"
+          },
+          {
+            "id": "P-3835",
+            "fecha": "2026-05-17",
+            "total": 158.95,
+            "enviado": "si"
+          },
+          {
+            "id": "P-2156",
+            "fecha": "2026-05-18",
+            "total": 374.95,
+            "enviado": "no"
+          }
+        ]
+      },
+      {
+        "id": "C04",
+        "nombre": "Noa",
+        "email": "cliente4@example.com",
+        "ciudad": "Sevilla",
+        "notas": "",
+        "pedidos": [
+          {
+            "id": "P-6565",
+            "fecha": "2026-07-15",
+            "total": 47.90,
+            "enviado": "no"
+          },
+          {
+            "id": "P-2206",
+            "fecha": "2026-07-23",
+            "total": 267,
+            "enviado": "si"
+          }
+        ]
+      },
+      {
+        "id": "C05",
+        "nombre": "Pablo",
+        "email": "cliente5@example.com",
+        "ciudad": "Malaga",
+        "notas": "prefiere entrega por la tarde",
+        "pedidos": [
+          {
+            "id": "P-1388",
+            "fecha": "2026-09-27",
+            "total": 209.85,
+            "enviado": "no"
+          },
+          {
+            "id": "P-3065",
+            "fecha": "2026-08-08",
+            "total": 380.50,
+            "enviado": "no"
+          }
+        ]
+      },
+      {
+        "id": "C06",
+        "nombre": "Alvaro",
+        "email": "cliente6@example.com",
+        "ciudad": "Jaen",
+        "notas": "pedidos < 30$ sin envio gratis",
+        "pedidos": [
+          {
+            "id": "P-8284",
+            "fecha": "2026-09-12",
+            "total": 26,
+            "enviado": "si"
+          },
+          {
+            "id": "1430",
+            "fecha": "2026-08-28",
+            "total": 352,
+            "enviado": "no"
+          }
+        ]
+      }
+    ]
+  }
+}

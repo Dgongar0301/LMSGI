@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stands de la feria del libro -->
+<stands feria="2026" xmlns:ele="https://electricidad.ejemplo.es/puntos">
+<stand numero="1" zona="norte">
+    <editorial>Ediciones Sur &amp; Norte</editorial>
+    <ele:enchufes>2</ele:enchufes>
+    <metros>9</metros>
+</stand>
+<stand numero="2" zona="norte">
+     <editorial>Poesía Viva</editorial>
+     <ele:enchufes>1</ele:enchufes>
+     <metros>6</metros>
+   </stand>
+  <stand numero="3" zona="sur">
+    <editorial>Pequeño Lector</editorial>
+    <ele:enchufes>3</ele:enchufes>
+     <aviso>Carga máxima &lt; 2000 W</aviso>
+     <contraseña_wifi/>
+   </stand>
+ </stands>
+ <!-- Fin del listado -->

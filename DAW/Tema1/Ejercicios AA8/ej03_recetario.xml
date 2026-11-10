@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recetario>
+    <receta dificultad="baja">
+        <nombre>Salmorejo cordobés</nombre>
+        <ingredientes>
+            <ingrediente cantidad="1 kg">Tomate</ingrediente>
+            <ingrediente cantidad="200 g">Pan de telera</ingrediente>
+            <ingrediente cantidad="100 ml">Aceite de oliva virgen extra</ingrediente>
+        </ingredientes>
+        <tiempo>15 minutos</tiempo>
+    </receta>
+    <receta dificultad="media">
+        <!--el error es que no se puede poner el aspensar solo, la solucion es quitarlo y ponerle la y normal-->
+        <nombre>Huevos rotos con jamón &amp; patatas</nombre>
+        <ingredientes>
+            <ingrediente cantidad="4">Huevos</ingrediente>
+            <ingrediente cantidad="500 g">Patatas</ingrediente>
+            <!--el error es que esta anyadido ingredientes, la solucion es quitarlo y ponerlo arriba el cierre-->
+        </ingredientes>
+        <tiempo>30 minutos</tiempo>
+    </receta>
+    <receta dificultad="alta">
+        <nombre>Rabo de toro</nombre>
+        <!--el error es que no se puede anyadir porque es un valor reservado, hay que anyadirle un codigo-->
+        <consejo>Mantener el horno a una temperatura &lt; 180 ºC</consejo>
+        <tiempo>240 minutos</tiempo>
+    </receta>
+</recetario>

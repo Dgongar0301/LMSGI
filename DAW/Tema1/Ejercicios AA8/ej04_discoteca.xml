@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discoteca>
+    <disco>
+        <titulo>Omega</titulo>
+        <artista>Enrique Morente y Lagartija Nick</artista>
+        <!--el error es que hay un espacio, la solucion es juntarlo-->
+        <añoLanzamiento>1996</añoLanzamiento>
+        <genero>Flamenco, Rock</genero>
+    </disco>
+    <disco>
+        <titulo>El mal querer</titulo>
+        <artista>Rosalía</artista>
+        <!--el error es que el nombre esta mal, la solucioin es quitar los 1 y poner un primer-->
+        <primer_single>Malamente</primer_single>
+        <genero>Pop, Flamenco</genero>
+    </disco>
+    <disco>
+        <titulo>La leyenda del tiempo</titulo>
+        <artista>Camarón de la Isla</artista>
+        <discográfica>Polydor</discográfica>
+        <!--el error es que hay parentesis y para locucionarlo solo hay que quitarlo-->
+        <precio>12.99</precio>
+    </disco>
+</discoteca>
