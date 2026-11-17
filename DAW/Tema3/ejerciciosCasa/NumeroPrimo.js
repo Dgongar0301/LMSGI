@@ -7,12 +7,8 @@ function numerosPrimos(numero) {
     }
   }
 
-  return primos
+  return primos === 0
 }
 
-console.log(numero(7))
-if (numerosPrimos(numero)) {
-  console.log(`${numero} es un número primo.`)
-} else {
-  console.log(`${numero} no es un número primo.`)
-}
+console.log(numerosPrimos(7)) // true
+console.log(numerosPrimos(8)) // false

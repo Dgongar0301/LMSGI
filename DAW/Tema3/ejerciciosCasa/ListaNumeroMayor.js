@@ -10,12 +10,8 @@ function numeroCapicua(numero) {
     numero = (numero - ultimaCifra) / 10
   }
 
-  return ultimaCifra
+  return original === reverso
 }
 
-console.log(numeroCapicua(1221))
-if (numeroCapicua(original === numero)) {
-  console.log(`${numero} es un número capicúa.`)
-} else {
-  console.log(`${numero} no es un número capicúa.`)
-}
+console.log(numeroCapicua(1221)) // true
+console.log(numeroCapicua(1234)) // false
