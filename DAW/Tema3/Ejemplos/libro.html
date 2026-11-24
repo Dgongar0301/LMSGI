@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="titulo">Libro</h1>
+    <ul id="productos">
+        <li class="producto oferta">Café</li>
+        <li class="producto">Té</li>
+        <li class="producto oferta">Cacao</li>
+    </ul>
+
+
+    <script>
+        let productos = document.querySelectorAll('.producto');
+        console.log(productos.length);
+
+        console.log(productos[0].textContent);
+
+        // Vamos a recorrer los elementos de la lista
+        for(let i = 0; i < productos.length; i++){
+            console.log(productos[i].textContent);
+        }
+
+        productos.forEach((producto, index) => {
+            console.log(index, producto.textContent);
+        })
+    </script>
+</body>
+
+</html>
